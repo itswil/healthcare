@@ -1,0 +1,25 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "expo start --port 19001",
+    "start": "expo start --port 19001",
+    "android": "expo start --android --port 19001",
+    "ios": "expo start --ios --port 19001",
+    "web": "expo start --web --port 19001"
+  },
+  "dependencies": {
+    "expo": "~48.0.15",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "typescript": "^4.9.4"
+  },
+  "private": true
+}
